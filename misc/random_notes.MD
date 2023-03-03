@@ -65,3 +65,17 @@ The above code will have the following output:
 Hello World
 ```
 In this example, if you were to use `print()` or `println()` again, the new text will print immediately after World on the same line. It’s important to remember where you left your program’s “cursor”. If you use `println()` the cursor is moved to the next line. If you use `print()` the cursor stays on the same line.
+
+### Java Basics: Putting It All Together
+
+- Java programs have at least one class and one main() method.
+    - Each class represents one real-world idea.
+    - The main() method runs the tasks of the program.
+- Java comments add helpful context to human readers.
+    - Java has whitespace, curly braces, and semicolons.
+    - Whitespace is for humans to read code easily.
+    - Curly braces mark the scope of a class and method.
+- Semicolons mark the end of a statement.
+- Java is a compiled language.
+    - Compiling catches mistakes in our code.
+    - Compilers transform code into an executable class.
