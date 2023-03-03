@@ -49,3 +49,19 @@ Password & Token Hashing
 Security: NoSQL Injection, XSS, etc
 Creating Documentation
 Deployment With PM2, NGINX, SSL
+
+
+
+We also can output information using System.out.print(). Notice that we’re using print(), not println(). Unlike System.out.println(), this type of print statement outputs everything on the same line. For example:
+
+```
+System.out.print("Hello ");
+System.out.print("World");
+```
+
+The above code will have the following output:
+
+```
+Hello World
+```
+In this example, if you were to use `print()` or `println()` again, the new text will print immediately after World on the same line. It’s important to remember where you left your program’s “cursor”. If you use `println()` the cursor is moved to the next line. If you use `print()` the cursor stays on the same line.
